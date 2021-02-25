@@ -1,5 +1,5 @@
 (function(){
-  var endpoint = "http://digitalborn.org/wp-json/wp/v2/posts",
+  var endpoint = "https://www.hwdsb.on.ca/ancasterhigh/wp-json/wp/v2",
       itemsPerPage = 3,
       vm;
 

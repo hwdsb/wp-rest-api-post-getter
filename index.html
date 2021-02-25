@@ -7,12 +7,12 @@
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
    <!-- Bootstrap CSS -->
-   <link rel="stylesheet" href="../_assets/thirdpartylib/bootstrap-4.3.1/css/bootstrap.min.css">
+   <link rel="stylesheet" href="_assets/thirdpartylib/bootstrap-4.3.1/css/bootstrap.min.css">
    <!-- Font Awesome CSS -->
-   <link rel="stylesheet" href="../_assets/thirdpartylib/fontawesome-free-5.9.0-web/css/all.min.css">
+   <link rel="stylesheet" href="_assets/thirdpartylib/fontawesome-free-5.9.0-web/css/all.min.css">
    <!-- Template CSS -->
-   <link rel="stylesheet" href="../_assets/css/styles.min.css">
-   <link rel="stylesheet" href="../_assets/css/custom.css">
+   <link rel="stylesheet" href="_assets/css/styles.min.css">
+   <link rel="stylesheet" href="_assets/css/custom.css">
    <title>Blank Page</title>
 </head>
 
@@ -27,7 +27,7 @@
         <div class="item" v-for="item in items | more showed">
           <div class="thumb" v-thumb="item.featured_media" v-show="item.featured_media"></div>
 
-          <h3><a href="{{item.link}}" target="_blank" class="title"><span v-html="item.title.rendered"><span></a></h3>
+          <h3><a href="{{item.link}}" target="_blank" class="title">{{item.title.rendered}}</a></h3>
           <div class="date"><p>{{item.date | formatDate}}</p></div>
           <div class="desc"><p>{{{item.excerpt.rendered | removeMoreLink}}}</p></div>
         </div>
@@ -42,13 +42,13 @@
 
 </div>
 </div>
-   <script src="../_assets/thirdpartylib/jquery/jquery-3.3.1.slim.min.js"></script>
-   <script src="../_assets/thirdpartylib/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+   <script src="_assets/thirdpartylib/jquery/jquery-3.3.1.slim.min.js"></script>
+   <script src="_assets/thirdpartylib/bootstrap-4.3.1/js/bootstrap.min.js"></script>
    <!-- Template JavaScript -->
-   <script src="../_assets/js/scripts.min.js"></script>
-   <script src="../_assets/js/vue.min.js"></script>
-   <script src="../_assets/js/vue-resource.min.js"></script>
-   <script src="../_assets/js/script.js"></script>
+   <script src="_assets/js/scripts.min.js"></script>
+   <script src="_assets/js/vue.min.js"></script>
+   <script src="_assets/js/vue-resource.min.js"></script>
+   <script src="_assets/js/script.js"></script>
 </body>
 
 </html>
